@@ -82,7 +82,7 @@ function displayMov(movements, sort = false) {
         <div class="movements__row">
           <div class="movements__type movements__type--${movType}">${
 			index + 1
-		} deposit</div>
+		} ${movType}</div>
           <div class="movements__value">${movment}€</div>
         </div>
   `;
@@ -268,4 +268,5 @@ btnClose.addEventListener('click', function (e) {
 
 createUserName(accounts);
 // console.log(accounts);
+
 
